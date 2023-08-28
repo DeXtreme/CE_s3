@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color:dodgerblue;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Style the main content section */
+.content {
+  width: 80%;
+  height:50vh;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color:#333;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width:100%
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+}
